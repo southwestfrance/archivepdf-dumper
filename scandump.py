@@ -6,7 +6,7 @@ BASE_PDF_URL = "https://apdf.devs-591.workers.dev/file/apdf-strapi-media-library
 
 # false if you just want the links
 DOWNLOAD = True 
-OUTPUT_DIR = "pdfs"
+OUTPUT_DIR = "scans"
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
