@@ -35,7 +35,7 @@ for entry in data:
             f.write(r.content)
 
 # save list of links
-with open("links.txt", "w") as f:
+with open("scan_links.txt", "w") as f:
     for l in links:
         f.write(l + "\n")
 
